@@ -29,7 +29,13 @@ def describe_brand(format: str) -> str:
     )
 
 
-# TODO (Lab 1): write the get_brand tool here. The agent calls it before it draws,
-# so it uses your brand's exact values, and the critic uses it to check them.
-# The logic is already written in describe_brand above: the tool's body is just
-#     return describe_brand(format)
+@tool(parse_docstring=True)
+def get_brand(format: str) -> str:
+    """Get the brand's exact colors and fonts, and the canvas size for one format.
+
+    Call this before you draw a design, and use only the values it returns.
+
+    Args:
+        format: The format you're designing for, like "social-card", "square", "story", or "slide".
+    """
+    return describe_brand(format)
