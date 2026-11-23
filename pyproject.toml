@@ -7,4 +7,5 @@ dependencies = [
     "managed-deepagents>=0.10.1",
     "langchain-anthropic",
     "httpx",
+    "colorama>=0.4.6",
 ]

@@ -11,7 +11,7 @@ from managed_deepagents import define_deep_agent
 
 agent = define_deep_agent(
     name="design-studio",
-    model="anthropic:claude-sonnet-4-6",
+    model="openai:gpt-5.5",
     # TODO (Lab 1): give the agent its tools.
     # TODO (Lab 1): pause for a person's approval before it publishes.
     # TODO (Lab 1): run the brand-lint middleware around every tool call.
