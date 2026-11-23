@@ -1,16 +1,16 @@
 {
-  "name": "TODO: your company's name",
+  "name": "Spoke Cycles",
   "colors": {
-    "primary": "#TODO",
-    "accent": "#TODO",
-    "background": "#TODO",
-    "surface": "#TODO",
-    "text": "#TODO",
-    "muted": "#TODO"
+    "primary": "#0F3D3E",
+    "accent": "#F2A541",
+    "background": "#F4F1EA",
+    "surface": "#FFFFFF",
+    "text": "#1B1B1B",
+    "muted": "#5C6767"
   },
   "fonts": {
-    "heading": "TODO: a font name from Google Fonts",
-    "body": "TODO: a font name from Google Fonts"
+    "heading": "Archivo",
+    "body": "Inter"
   },
   "formats": {
     "social-card": [1200, 630],
